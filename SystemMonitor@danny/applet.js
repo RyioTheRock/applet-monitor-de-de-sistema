@@ -11,7 +11,7 @@ try { GTop = imports.gi.GTop; } catch(e) {}
 
 const UUID = "SystemMonitor@danny";
 
-// Ruta absoluta de tu carpeta interna de iconos
+
 const ICONS_DIR = GLib.get_home_dir() + "/.local/share/cinnamon/applets/" + UUID + "/icons";
 
 const ICON_CPU  = ICONS_DIR + "/cpu.svg";
@@ -34,7 +34,6 @@ function MyApplet(metadata, orientation, panel_height, instance_id) {
 }
 
 MyApplet.prototype = {
-    // Heredamos del Applet base para controlar dinámicamente los elementos en el panel
     __proto__: Applet.Applet.prototype,
 
     _init: function(metadata, orientation, panel_height, instance_id) {
@@ -59,7 +58,7 @@ MyApplet.prototype = {
     },
 
     _on_settings_changed: function() {
-        // Manejo automático de Cinnamon
+
     },
 
     _read_sys_file: function(path) {
