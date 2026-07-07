@@ -121,12 +121,12 @@
     "show-cpu": {
         "type": "switch",
         "default": true,
-        "description": "Mostrar uso de CPU"
+        "description": "Mostrar uso del CPU"
     },
     "cpu-color": {
         "type": "colorchooser",
         "default": "#ffffff",
-        "description": "Cambiar dolo de CPU"
+        "description": "Cambiar color del texto de CPU"
     },
     "cpu-size": {
         "type": "spinbutton",
@@ -135,17 +135,17 @@
         "max": 40,
         "step": 1,
         "units": "px",
-        "description": "cambiar tapaño de CPU"
+        "description": "Cambiar tamaño del texto de CPU"
     },
     "show-gpu": {
         "type": "switch",
         "default": true,
-        "description": "Mostrar uso de GPU"
+        "description": "Mostrar uso del GPU"
     },
     "gpu-color": {
         "type": "colorchooser",
         "default": "#ffffff",
-        "description": "Cambiar dolo de GPU"
+        "description": "Cambiar color del texto de GPU"
     },
     "gpu-size": {
         "type": "spinbutton",
@@ -154,17 +154,17 @@
         "max": 40,
         "step": 1,
         "units": "px",
-        "description": "cambiar tapaño de GPU"
+        "description": "Cambiar tamaño del texto de GPU"
     },
     "show-vram": {
         "type": "switch",
         "default": true,
-        "description": "Mostrar uso de VRAM"
+        "description": "Mostrar uso de la VRAM"
     },
     "vram-color": {
         "type": "colorchooser",
         "default": "#ffffff",
-        "description": "Cambiar dolo de VRAM"
+        "description": "Cambiar color del texto de VRAM"
     },
     "vram-size": {
         "type": "spinbutton",
@@ -173,12 +173,12 @@
         "max": 40,
         "step": 1,
         "units": "px",
-        "description": "cambiar tapaño de VRAM"
+        "description": "Cambiar tamaño del texto de VRAM"
     },
     "show-ram": {
         "type": "switch",
         "default": true, 
-        "description": "Mostrar uso de RAM"
+        "description": "Mostrar uso de la RAM"
     },
     "show-swap":{
         "type": "switch",
@@ -188,7 +188,7 @@
     "ram-color": {
         "type": "colorchooser",
         "default": "#ffffff",
-        "description": "Color del texto de RAM"
+        "description": "Cambiar color del texto de RAM"
     },
     "ram-font-size": {
         "type": "spinbutton",
@@ -202,7 +202,7 @@
     "swap-color":{
         "type":"colorchooser",
         "default": "#ffffff",
-        "description": "color de texto de SWAP"
+        "description": "Cambiar color del texto de SWAP"
     },
     "swap-font-size":{
         "type":"spinbutton",
